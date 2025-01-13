@@ -89,7 +89,7 @@ def repeat():
         pag.hotkey('enter')
         if not os.path.exists('./缓存'):
             os.mkdir('./缓存')
-        url = 'https://api.lolicon.app/setu/v2?size=original&tag=jk|白丝|黑丝|裸足|水手服|女仆装|萝莉|肉丝|御姐|白裤袜|黑裤袜|&r18=0&num='+str(m)
+        url = 'https://api.lolicon.app/setu/v2?size=original&tag=jk&r18=0&num='+str(m)
         headers = {
             'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0'
         }
@@ -121,7 +121,7 @@ def repeat():
             pag.hotkey('enter')
             a += 1
         def new_picture():
-            url = 'https://api.lolicon.app/setu/v2?size=original&tag=jk|白丝|黑丝|裸足|水手服|女仆装|萝莉|肉丝|御姐|少女&r18=0&num='+str(m)
+            url = 'https://api.lolicon.app/setu/v2?size=original&tag=jk&r18=0&num='+str(m)
             headers = {
                 'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0'
             }
